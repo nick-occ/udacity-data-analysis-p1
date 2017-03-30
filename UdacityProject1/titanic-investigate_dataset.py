@@ -3,7 +3,7 @@ import numpy as np
 from pandas import DataFrame,Series
 import matplotlib.pyplot as plt
 
-data = r'data\titanic-data.csv'
+data = r'data\titanic-data.csv' 
 
 df = pd.read_csv(data)
 
